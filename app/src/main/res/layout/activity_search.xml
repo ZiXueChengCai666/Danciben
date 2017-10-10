@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wufan.danciben.Activity.SearchActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:layout_weight="4"
+            android:hint="搜索"
+            android:id="@+id/search_edit"
+            android:imeOptions="flagNoExtractUi|actionSend"
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="查找"
+            android:id="@+id/search_button"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/search_result_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="word"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/search_result_yinbiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="yinbiao"
+        android:textSize="20dp"
+        android:layout_below="@+id/search_result_word"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/search_result_jieshi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:text="jieshi"
+        android:textSize="20dp"
+        android:layout_below="@+id/search_result_yinbiao"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/search_result_shoucang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="添加到单词本"
+        android:layout_below="@+id/search_result_jieshi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="69dp" />
+
+</RelativeLayout>

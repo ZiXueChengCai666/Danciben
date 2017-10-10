@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.wufan.danciben.Activity.FullscreenActivity">
+
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="84dp"-->
+        <!--android:layout_height="75dp"-->
+        <!--android:fitsSystemWindows="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/fullscreen_content_controls"-->
+            <!--style="?metaButtonBarStyle"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom|center_horizontal"-->
+
+            <!--android:orientation="horizontal"-->
+            <!--tools:ignore="UselessParent">-->
+
+        <!--</LinearLayout>-->
+
+    <!--</FrameLayout>-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_below="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/tt" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:src="@drawable/ww"
+            android:layout_below="@+id/imageView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="340dp"
+
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/imageView5"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/imageView5"
+            android:layout_marginLeft="51dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="47dp"
+            android:src="@drawable/zz" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wid">
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+        <item>004</item>
+        <item>005</item>
+        <item>006</item>
+        <item>007</item>
+        <item>008</item>
+        <item>009</item>
+
+    </string-array>
+
+
+    <string-array name="wword">
+        <item>apple</item>
+        <item>banana</item>
+        <item>orange</item>
+        <item>apple</item>
+        <item>banana</item>
+        <item>orange</item>
+        <item>apple</item>
+        <item>banana</item>
+        <item>orange</item>
+    </string-array>
+
+
+    <string-array name="wmeaning">
+        <item>苹果</item>
+        <item>香蕉</item>
+        <item>橘子</item>
+        <item>苹果</item>
+        <item>香蕉</item>
+        <item>橘子</item>
+        <item>苹果</item>
+        <item>香蕉</item>
+        <item>橘子</item>
+    </string-array>
+
+    <string-array name="wsample">
+        <item>This is apple</item>
+        <item>This is banana</item>
+        <item>This is orange</item>
+        <item>This is apple</item>
+        <item>This is banana</item>
+        <item>This is orange</item>
+        <item>This is apple</item>
+        <item>This is banana</item>
+        <item>This is orange</item>
+    </string-array>
+
+
+
+</resources>
